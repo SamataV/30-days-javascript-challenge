@@ -7,6 +7,7 @@ Daily Tasks
 Each folder (Day 1, Day 2, etc.) contains two files:
 
 Day.task: Describes the task for the day.
+
 script.js: Contains the solution to the task.
 
 
