@@ -96,3 +96,52 @@ console.log(day)
 
 //Task 5: Write a program that uses a switch case to assign a grade( 'A','B','C','D','F') based on a score and log the grade to the console.
 
+let grade;
+let score = 98
+
+switch ( true ) {
+  case ( score >= 90 && score <= 100 )  :
+    grade = "A"
+    break;
+  case ( score >= 80  && score <= 90 ) : 
+    grade = "B"
+    break
+  case ( score >= 70 && score <= 80 ):
+    grade = "C"
+    break
+  case ( score >= 60 && score <= 70 ):
+    grade = "D"
+  case ( score >= 50 && score <= 60 ) :
+    grade = "F"
+    break
+  default:
+    grade = "Non Gradeable"
+    console.log(score)
+    break;
+}
+console.log(grade)
+
+//Activity 4: Conditional (Ternary) Operator
+
+//Task 6: Write a program that uses the ternary operator to check if a number is even or odd and log the result to the console.
+
+
+let ternaryNumber = 4 
+ternaryNumber = 3
+let ternaryOutput;
+ternaryNumber = ternaryNumber % 2 === 0 ? ternaryOutput = "Even" : ternaryOutput = "Odd"
+console.log(ternaryOutput);
+
+//Activity 5: Combining Conditions
+
+//Task 7: Write a program to check if a year is a leap year using multiple conditions(divisible by 4, but not 100 unless also divisible by 400) and log the result to the console.
+
+let year = 2024
+let leapYear;
+
+if( year % 4 === 0 && year % 100 !== 0 || year % 400 === 0 ) {
+  leapYear = "Yes"
+}else {
+  leapYear = "No"
+}
+console.log( leapYear )
